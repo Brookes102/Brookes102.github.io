@@ -1,52 +1,95 @@
-body{
+/* PAGE BACKGROUND IMAGES AND COLOURS*/
+
+.index{
 	background-image: url("../img/background.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 } 
+.aboutMe{
+	background-image: url("../img/blackchair.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 
-.headingKane{
+/*HEADING AND TAGLINE STYLING*/
+
+.headingKaneIndex{
 	font-family: arial;
 	color: #7d7d7d;
 	font-size: 125px;
 	padding-top: 150px;
-	padding-right: 400px;
+	
+	text-decoration:underline;
 }
-.headingBrookes{
+.headingBrookesIndex{
 	font-family: arial;
 	color: #7d7d7d;
 	font-size: 125px;
 	padding-top: 0px;
 	padding-left: 75px;
+	text-decoration: underline;
 }
-.taglineMain{
+.taglineIndex{
 	font-family: arial;
 	color: #7d7d7d;
 	font-size: 20px;
 	padding-top: 75px;
 	padding: left 75px;
 }
-
-
-
-
-.navbar {
-  background: transparent
-
-}
-.nav-link{
+.headingAboutMe{
+	font-family: arial;
 	color: #7d7d7d;
+	font-size: 125px;
+	padding-top: 0px;
+	padding-left: 0px;
+	text-decoration:underline;
 }
-.sr-only{
+.catchLineIndex{
+	font-family: arial;
 	color: #7d7d7d;
+	font-size: 40px;
+	padding-top: 525px;
+	padding-left: 0px;
 }
 
+/*TEXT STYLING*/
+
+.aboutMeInformation{
+
+}
+
+/* NAVBAR STYLING - DIFFERENT FOR EACH PAGE*/
+
+.navigation{
+	padding-top: 70px;
+	text-align: right;
+}
+.naviagtionBar{
+	list-style: none;
+}
+.navigationItem{
+	display: inline;
+	
+}
+.naviagtionLink{
+	padding:0 50px;
+	color: #7d7d7d;
+	font-family: arial;
+	font-size: 30px;
+}
+/* BUTTON STYLING - DIFFERENT FOR EACH BUTTON*/
 
 .btn {
   font-weight: 300;
+  text-align: center;
 }
-.btn-primary {
+.aboutMeBtn {
   background: #7d7d7d;
   border-color: #7d7d7d;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 220px; 
+  padding-left: 100px !important;
 }
 .btn-primary:hover,
 .btn-primary:active,
@@ -54,4 +97,13 @@ body{
 .btn-primary:active:focus {
   background: #7d7d7d;
   border-color: #7d7d7d;
+}
+.btn-group-lg>.btn, .btn-lg{
+	padding-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+	.navigation{
+		text-align: center;
+	}
 }
