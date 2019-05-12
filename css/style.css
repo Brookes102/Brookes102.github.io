@@ -1,0 +1,57 @@
+body{
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+} 
+
+.headingKane{
+	font-family: arial;
+	color: #7d7d7d;
+	font-size: 125px;
+	padding-top: 150px;
+	padding-right: 400px;
+}
+.headingBrookes{
+	font-family: arial;
+	color: #7d7d7d;
+	font-size: 125px;
+	padding-top: 0px;
+	padding-left: 75px;
+}
+.taglineMain{
+	font-family: arial;
+	color: #7d7d7d;
+	font-size: 20px;
+	padding-top: 75px;
+	padding: left 75px;
+}
+
+
+
+
+.navbar {
+  background: transparent
+
+}
+.nav-link{
+	color: #7d7d7d;
+}
+.sr-only{
+	color: #7d7d7d;
+}
+
+
+.btn {
+  font-weight: 300;
+}
+.btn-primary {
+  background: #7d7d7d;
+  border-color: #7d7d7d;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #7d7d7d;
+  border-color: #7d7d7d;
+}
